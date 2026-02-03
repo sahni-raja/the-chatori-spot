@@ -51,4 +51,6 @@ A beautiful, fully responsive MiniRestaurant website named The Chatori Spot buil
 │
 └── README.md               # You're here!
 ```
+## Note  
+This project was inspired by an open-source restaurant website and has been customized, refactored, and enhanced for learning and portfolio purposes.
 
