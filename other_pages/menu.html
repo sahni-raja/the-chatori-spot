@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            /* background-color: hsla(29.45, 63.22%, 82.94%, 1); */
+            background-image: url('../IMAGES/image4.png');
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+            color: #fff;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #444; */
+            padding: 10px 20px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .menu-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .menu-section {
+            flex: 1 1 calc(50% - 40px);
+            background-color: #fff4d7;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-section h2 {
+            background-color: #ffd966;
+            color: #7a5821;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 5px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #7a5821;
+        }
+
+        .menu-item .price {
+            font-weight: bold;
+            color: #7a5821;
+        }
+
+        footer {
+            background-color: hsla(29.45, 63.22%, 82.94%, 1);;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #7a5821;
+        }
+
+        footer .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        footer .contact span {
+            display: inline-block;
+            font-size: 14px;
+            color: #7a5821;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>The Chatori Spot</h1> -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./gallery.html">gallery</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu-container">
+        <!-- Mutton Special Section -->
+        <div class="menu-section">
+            <h2>Mutton Special</h2>
+            <div class="menu-item">
+                <h3>Mutton Biryani</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Soup</h3>
+                <span class="price">&#8377;100</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Tikka</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Keema</h3>
+                <span class="price">&#8377;50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Kabab</h3>
+                <span class="price">&#8377;200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Fry</h3>
+                <span class="price">&#8377;100</span>
+            </div>
+        </div>
+
+        <!-- Chicken Special Section -->
+        <div class="menu-section">
+            <h2>Chicken Special</h2>
+            <div class="menu-item">
+                <h3>Chicken Biryani</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Soup</h3>
+                <span class="price">&#8377;100</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Tikka</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Noodles</h3>
+                <span class="price">&#8377;50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Kabab</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Fry</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+        </div>
+
+        <!-- Tandoori Cuisine Section -->
+        <div class="menu-section">
+            <h2>Tandoori Cuisine</h2>
+            <div class="menu-item">
+                <h3>Tandoori Chicken</h3>
+                <span class="price">&#8377;250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Barra</h3>
+                <span class="price">&#8377;350</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Curry</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Tandoori Fry</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+            <div class="menu-item">
+                <h3>Butter Naan</h3>
+                <span class="price">&#8377;50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Mutton Roti</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+        </div>
+
+        <!-- Dessert Section -->
+        <div class="menu-section">
+            <h2>Dessert</h2>
+            <div class="menu-item">
+                <h3>Apple Pie</h3>
+                <span class="price">&#8377;250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Fruit Cream</h3>
+                <span class="price">&#8377;300</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vanilla Crush</h3>
+                <span class="price">&#8377;250</span>
+            </div>
+            <div class="menu-item">
+                <h3>Sweet Corn</h3>
+                <span class="price">&#8377;200</span>
+            </div>
+            <div class="menu-item">
+                <h3>Banana Pie</h3>
+                <span class="price">&#8377;350</span>
+            </div>
+            <div class="menu-item">
+                <h3>Gulab Jamun</h3>
+                <span class="price">&#8377;150</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; The Chatori Spot</p>
+        <div class="contact">
+            <span>📞 +123-456-7890</span>
+            <span>🌐 www.theChatoriSpot.com</span>
+        </div>
+    </footer>
+</body>
+</html>

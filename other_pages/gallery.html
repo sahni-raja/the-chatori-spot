@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Gallery</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./menu.html">menu</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Restaurant</h1>
+        <h3>Experience the Taste, Relish the Ambiance</h3>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="dishes">Signature Dishes</button>
+            <button data-filter="ambiance">Interior & Ambiance</button>
+            <button data-filter="events">Events & Celebrations</button>
+        </div>
+
+        <div class="gallery-container">
+            <!-- Signature Dishes -->
+            <div class="gallery-item dishes">
+                <img src="../IMAGES/image5.png" alt="Dish 1">
+                <div class="overlay">Chef's Special Dish</div>
+            </div>
+            <div class="gallery-item dishes">
+                <img src="../IMAGES/delicious_pasta.jpg" alt="Dish 2">
+                <div class="overlay">Delicious Pasta</div>
+            </div>
+
+            <!-- Interior & Ambiance -->
+            <div class="gallery-item ambiance">
+                <img src="../IMAGES/cozy_seating.jpg" alt="Ambiance 1">
+                <div class="overlay">Cozy Seating</div>
+            </div>
+            <div class="gallery-item ambiance">
+                <img src="../IMAGES/elegant_decor.jpg" alt="Ambiance 2">
+                <div class="overlay">Elegant Decor</div>
+            </div>
+
+            <!-- Events & Celebrations -->
+            <div class="gallery-item events">
+                <img src="../IMAGES/birthday.jpg" alt="Event 1">
+                <div class="overlay">Birthday Party</div>
+            </div>
+            <div class="gallery-item events">
+                <img src="../IMAGES/wedding_celebra.jpg" alt="Event 2">
+                <div class="overlay">Wedding Celebration</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+</html>
