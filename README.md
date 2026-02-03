@@ -2,6 +2,14 @@
 
 A beautiful, fully responsive MiniRestaurant website named The Chatori Spot built using pure HTML, CSS, and JavaScript. This project showcases multiple sections like Home, Menu, Gallery, About, and Contact — all organized in a scalable folder structure. It features smooth navigation, interactive elements, and visual content like food images, all tailored for a modern restaurant experience.
 
+
+---
+## 🚀 Live Demo
+
+[![MiniRestaurant Preview](./screenshot.png)](https://the-chatori-spot.netlify.app/)
+
+🔗 **Visit Website**: [https://the-chatori-spot.netlify.app](https://the-chatori-spot.netlify.app/)
+
 ---
 
 ## 🔥 Features
